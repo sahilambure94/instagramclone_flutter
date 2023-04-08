@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "114024085474",
+    "project_id": "insto-flutter-ambure",
+    "storage_bucket": "insto-flutter-ambure.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114024085474:android:c76873e98e414963eb6bbb",
+        "android_client_info": {
+          "package_name": "com.example.instagramclone_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114024085474-5ngpvbl6lviseqbt0qdavs6ncm06adqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU65Vna9-AOhKdpEKFJOAhrhuHuMsJdeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114024085474-5ngpvbl6lviseqbt0qdavs6ncm06adqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

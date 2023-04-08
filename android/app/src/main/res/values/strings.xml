@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="facebook_app_id">895673111717873</string>
+<string name="fb_login_protocol_scheme">fb895673111717873</string>
+<string name="facebook_client_token">8fb5f07f75e349bb591cf9727424b72c</string>
+<string name="app_name">Instoflutter</string>
+</resources>
