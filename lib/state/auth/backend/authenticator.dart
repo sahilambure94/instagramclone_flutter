@@ -7,6 +7,7 @@ import 'package:instagramclone_flutter/state/auth/models/auth_result.dart';
 import '../../posts/typedefs/user_id.dart';
 
 class Authenticator {
+  const Authenticator();
   // getter for current userid
 
   UserId? get userId => FirebaseAuth.instance.currentUser?.uid;
