@@ -38,7 +38,7 @@ class ImageUploadNotifier extends StateNotifier<IsLoading> {
         final fileAsImage = img.decodeImage(file.readAsBytesSync());
         if (fileAsImage == null) {
           isLoading = false;
-          throw const CouldNotBuildThumbnailException();
+          return false;
         }
         final thumbnail = img.copyResize(
           fileAsImage,
