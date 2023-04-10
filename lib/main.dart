@@ -5,6 +5,7 @@ import 'package:instagramclone_flutter/state/auth/providers/auth_state_provider.
 import 'package:instagramclone_flutter/state/providers/is_loading_provider.dart';
 import 'package:instagramclone_flutter/views/components/loading/loading_screen.dart';
 import 'package:instagramclone_flutter/views/login/login_view.dart';
+import 'package:instagramclone_flutter/views/main/main_view.dart';
 import 'firebase_options.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -49,29 +50,6 @@ class MyApp extends StatelessWidget {
           } else {
             return const LoginView();
           }
-        },
-      ),
-    );
-  }
-}
-
-class MainView extends StatelessWidget {
-  const MainView({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Main View'),
-      ),
-      body: Consumer(
-        builder: (context, ref, child) {
-          return TextButton(
-            onPressed: () async {
-              ref.read(authStateProvider.notifier).logOut();
-            },
-            child: const Text('Logout'),
-          );
         },
       ),
     );
