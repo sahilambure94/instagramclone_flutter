@@ -25,7 +25,9 @@ class UserPostsView extends ConsumerWidget {
               text: Strings.youHaveNoPosts,
             );
           } else {
-            return PostsGridView(posts: posts);
+            return PostsGridView(
+              posts: posts,
+            );
           }
         },
         error: (error, stackTrace) {
