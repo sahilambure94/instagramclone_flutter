@@ -4,8 +4,11 @@ import 'package:instagramclone_flutter/state/posts/models/post.dart';
 class PostThumbnailView extends StatelessWidget {
   final Post post;
   final VoidCallback onTapped;
-  const PostThumbnailView(
-      {super.key, required this.post, required this.onTapped});
+  const PostThumbnailView({
+    super.key,
+    required this.post,
+    required this.onTapped,
+  });
 
   @override
   Widget build(BuildContext context) {
