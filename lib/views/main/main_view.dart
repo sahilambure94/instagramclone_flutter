@@ -9,6 +9,7 @@ import 'package:instagramclone_flutter/views/components/dialogs/alert_dialog_mod
 import 'package:instagramclone_flutter/views/components/dialogs/logout_dialog.dart';
 import 'package:instagramclone_flutter/views/constants/strings.dart';
 import 'package:instagramclone_flutter/views/create_new_post/create_new_post_view.dart';
+import 'package:instagramclone_flutter/views/tabs/search/search_view.dart';
 import 'package:instagramclone_flutter/views/tabs/user_posts/user_posts_view.dart';
 
 class MainView extends ConsumerStatefulWidget {
@@ -119,7 +120,7 @@ class _MainViewState extends ConsumerState<MainView> {
           body: const TabBarView(
             children: [
               UserPostsView(),
-              UserPostsView(),
+              SearchView(),
               UserPostsView(),
             ],
           )),
